@@ -1,4 +1,4 @@
-FROM centos:7 
-RUN yum -y install httpd; stemctl start httpd.service; systemctl enable httpd.service
+FROM centos:7
+RUN yum install httpd -y
 EXPOSE 80
-CMD ["/usr/sbin/init"]
+ENTRYPOINT ["/usr/sbin/httpd", "-D", "FOREGROUND"]
