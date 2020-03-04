@@ -46,5 +46,41 @@ git --global user.name "John Smith" git config --global user.email john@example.
 
 ![Life Cycle] (Life Cycle.JPG)
 
+### Branching and Merging
+
+| Command                                            | Description                                       |
+|----------------------------------------------------|---------------------------------------------------|
+| git branch                                         | To list branches                                  |
+| git branch -a                                      | To list all the branches                          |
+| git branch [branch name]                           | To create a new branch                            |
+| git branch -d [branch name]                        | To delete a branch                                |
+| git push origin –delete [branchName]               | To delete a remote branch                         |
+| git checkout -b [branch name]                      | To create a new branch and switch to it           |
+| git checkout -b [branch name] origin/[branch name] | To clone a remote branch and switch to it         |
+| git checkout [branch name]                         | To switch to a branch                             |
+| git checkout –                                     | To switch to the branch last checked out          |
+| git checkout — [file-name.txt]                     | To discard the changes made to a file             |
+| git merge [branch name]                            | To merge a branch into an active branch           |
+| git stash                                          | To stash the changes in a dirty working directory |
+| git stash clear                                    | To remove all the stashed entries                 |
 
 
+### Sharing and Updating Projects
+| Command                                                                         | Description                                                                                |
+|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| git push origin [branch name]                                                   | To push a branch to a remote repository                                                    |
+| git push -u origin [branch name]                                                | To push the changes made to a remote repository (-u remembers the branch for the next use) |
+| git push origin –delete [branch name]                                           | To delete a remote branch                                                                  |
+| git pull                                                                        | To update a local repository to the newest commit                                          |
+
+
+
+
+| Command                                  | Description                       |
+|------------------------------------------|-----------------------------------|
+| git log                                  | To view the changes made          |
+| View changes                             | To view changes (in detail)       |
+| git diff [source branch] [target branch} | To preview changes before merging |
+| git pull origin [branch name]                                                   | To pull the changes from a remote repository                                               |
+| git remote add origin ssh://git@github.com/[username]/[repository-name].git     | To add a remote repository                                                                 |
+| git remote set-url origin ssh://git@github.com/[username]/[repository-name].git | To set a repository’s origin branch to SSH                                                 |
