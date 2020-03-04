@@ -42,9 +42,9 @@ git --global user.name "John Smith" git config --global user.email john@example.
 
 ![Command](Command.png)
 
-![Git-Cheat-Sheet] (Git-Cheat-Sheet.jpg)
+![Git-Cheat-Sheet](Git-Cheat-Sheet.jpg)
 
-![Life Cycle] (Life Cycle.JPG)
+![Life Cycle](Life Cycle.JPG)
 
 ### Branching and Merging
 
