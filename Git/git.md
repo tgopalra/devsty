@@ -1,6 +1,10 @@
 ### What is a Git repository?
 
-A Git repository is a virtual storage of your project. It allows you to save versions of your code, which you can access when needed. 
+Git is a DevOps tool that is used as a version-control system for tracking the changes happening in system files and coordinating the work on those files among a group of people. In the software development field, Git is used in source code management and for tracking the changes made in any file.
+
+Git is a distributed version control and source code management system with an emphasis on speed.
+It is a repository used to manage projects, the set of files, as they change over time.
+Using Git, every code change or commit we make gets updated in the development code of a project.
 
 
 ### Initializing a new repository: git init
@@ -35,6 +39,12 @@ git --global user.name "John Smith" git config --global user.email john@example.
 ### git clone
 
 ![init](init.JPG)
+
+![Command](Command.png)
+
+![Git-Cheat-Sheet] (Git-Cheat-Sheet.jpg)
+
+![Life Cycle] (Life Cycle.JPG)
 
 
 
