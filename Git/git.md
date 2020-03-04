@@ -31,3 +31,9 @@ git config --global alias.ci commit     #[To learn more about git aliases]
 git config --global --edit [Open the global configuration file in a text editor for manual editing]
 git --global user.name "John Smith" git config --global user.email john@example.com   #[manually edit these values to the exact same effect as git config]
 ```
+
+
+![init](init)
+
+
+
