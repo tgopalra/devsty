@@ -33,7 +33,7 @@ git --global user.name "John Smith" git config --global user.email john@example.
 ```
 
 
-![init](init)
+![init](init.JPG)
 
 
 
