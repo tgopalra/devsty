@@ -25,8 +25,8 @@ git commit -m "added CommitTest.txt to the repo"
 git remote add <remote_name> <remote_repo_url>     #[To map remote repository]
 git push -u <remote_name> <local_branch_name>      #[To push the local repo branch to remote repo]
 git config --global user.name <name>     #[Define the author name to be used for all commits in the current repository. Typically, you’ll want to use the --global flag to set configuration options for the current user.]
-git config --local user.email <email> 
-git config --global alias.<alias-name> <git-command>
+git config --local user.email <email>  #[Adding the --local option or not passing a config level option at all, will set the user.name for the current local repository.]
+git config --global alias.<alias-name> <git-command> 
 git config --global alias.ci commit
 git config --system core.editor <editor>
 git config --global --edit [To edit 
